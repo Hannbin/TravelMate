@@ -1,0 +1,42 @@
+.search-trip {
+  display: flex;
+  gap: 15px;
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+  align-items: flex-end;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.field label {
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 5px;
+}
+
+.field input {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  min-width: 160px;
+}
+
+.search-trip button {
+  background: #0ea5e9;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.search-trip button:hover {
+  background: #0284c7;
+}

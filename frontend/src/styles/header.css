@@ -1,0 +1,66 @@
+.header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  z-index: 10;
+}
+
+/* LOGO */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.logo img {
+  width: 35px;
+}
+
+.logo span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* NAV */
+.nav {
+  display: flex;
+  gap: 40px;
+  color: white;
+  font-weight: 500;
+}
+
+.nav span {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav span:hover {
+  color: #ff7a18;
+}
+
+/* AUTH */
+.auth {
+  display: flex;
+  gap: 15px;
+}
+
+.login {
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.register {
+  background: #ff7a18;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
